@@ -8,18 +8,18 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1161352903462018}
-  m_IsPrefabAsset: 1
---- !u!1 &1161352903462018
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1686773922504254}
+  m_IsPrefabParent: 1
+--- !u!1 &1686773922504254
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
-  - component: {fileID: 4594033286640844}
-  - component: {fileID: 114684919080743874}
+  - component: {fileID: 4108477263330230}
+  - component: {fileID: 114697930555419170}
   m_Layer: 0
   m_Name: AppcoinsUnity
   m_TagString: Untagged
@@ -27,28 +27,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4594033286640844
+--- !u!4 &4108477263330230
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1161352903462018}
+  m_GameObject: {fileID: 1686773922504254}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114684919080743874
+--- !u!114 &114697930555419170
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1161352903462018}
+  m_GameObject: {fileID: 1686773922504254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 779045978, guid: 976953026c0d7418b9ed722778075ceb, type: 3}
+  m_Script: {fileID: 779045978, guid: 7ad3131857b344914963e216fb01967a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   receivingAddress: 0xa43646ed0ece7595267ed7a2ff6f499f9f10f3c7
