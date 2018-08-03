@@ -1,2 +1,0 @@
-/Users/aptoide/Documents/GitHub/AppcoinsUnityPlugin/Appcoins Unity/obj/Release/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
-/Users/aptoide/Documents/GitHub/AppcoinsUnityPlugin/Appcoins Unity/obj/Release/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
