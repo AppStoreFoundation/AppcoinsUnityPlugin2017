@@ -1,11 +1,6 @@
 
 # Created by https://www.gitignore.io/api/unity,visualstudio,visualstudiocode
 
-.DS_Store
-._.DS_Store
-**/.DS_Store
-**/._.DS_Store
-
 ### Unity ###
 [Ll]ibrary/
 [Tt]emp/
@@ -359,3 +354,7 @@ __pycache__/
 
 unityappcoins/.idea/caches/build_file_checksums.ser
 Appcoins Unity/Assets/Plugins/Android/mainTemplate.gradle
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
