@@ -1,7 +1,10 @@
 
 # Created by https://www.gitignore.io/api/unity,visualstudio,visualstudiocode
 
-*.DS_Store
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
 
 ### Unity ###
 [Ll]ibrary/
