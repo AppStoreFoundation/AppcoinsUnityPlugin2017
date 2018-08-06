@@ -8,9 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1068742706, guid: 7ad3131857b344914963e216fb01967a, type: 3}
+  m_Script: {fileID: 1068742706, guid: 4eb5eb697ff824c5e87b175ec4a40835, type: 3}
   m_Name: Monster Drink
   m_EditorClassIdentifier: 
   Name: Monster Drink
   SKUID: monster
-  Price: 0.25
+  Price: 0.1
