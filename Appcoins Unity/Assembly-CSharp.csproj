@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AppcoinsUnity\Example\Scripts\Purchaser.cs" />
+     <Compile Include="Assets\AppcoinsUnity\Scripts\AppCoinsChecks.cs" />
+     <Compile Include="Assets\AppcoinsUnity\Scripts\AppcoinsUnityTests.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>/Applications/Unity 2017.4.1f8/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
  </Reference>
