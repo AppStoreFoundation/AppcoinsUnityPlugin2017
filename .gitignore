@@ -358,3 +358,4 @@ Appcoins Unity/Assets/Plugins/Android/mainTemplate.gradle
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
+defaultExport.sh
