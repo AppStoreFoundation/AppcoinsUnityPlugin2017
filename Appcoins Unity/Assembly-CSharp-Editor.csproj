@@ -51,8 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AppcoinsUnity\Scripts\Editor\AppCoinsChecks.cs" />
-     <Compile Include="Assets\AppcoinsUnity\Scripts\Editor\AppcoinsUnityTests.cs" />
      <Compile Include="Assets\AppcoinsUnity\Scripts\Editor\ExportPackageAutomatically.cs" />
      <Compile Include="Assets\AppcoinsUnity\Scripts\Editor\PackageInfo.cs" />
  <Reference Include="UnityEngine.CoreModule">
