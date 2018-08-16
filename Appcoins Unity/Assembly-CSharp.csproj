@@ -220,6 +220,9 @@
  <Reference Include="AppCoinsUnityPlugin2017">
  <HintPath>/Users/aptoide/Documents/GitHub/AppcoinsUnityPlugin2017/Appcoins Unity/Assets/AppcoinsUnity/Scripts/AppCoinsUnityPlugin2017.dll</HintPath>
  </Reference>
+ <Reference Include="AppCoinsUnityPluginTests2017">
+ <HintPath>/Users/aptoide/Documents/GitHub/AppcoinsUnityPlugin2017/Appcoins Unity/Assets/AppcoinsUnity/Scripts/AppCoinsUnityPluginTests2017.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Users/aptoide/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
  </Reference>

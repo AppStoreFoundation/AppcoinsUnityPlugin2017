@@ -261,6 +261,9 @@
  <Reference Include="AppCoinsUnityPlugin2017">
  <HintPath>/Users/aptoide/Documents/GitHub/AppcoinsUnityPlugin2017/Appcoins Unity/Assets/AppcoinsUnity/Scripts/AppCoinsUnityPlugin2017.dll</HintPath>
  </Reference>
+ <Reference Include="AppCoinsUnityPluginTests2017">
+ <HintPath>/Users/aptoide/Documents/GitHub/AppcoinsUnityPlugin2017/Appcoins Unity/Assets/AppcoinsUnity/Scripts/AppCoinsUnityPluginTests2017.dll</HintPath>
+ </Reference>
  <Reference Include="AppCoinsUnityPluginEditor2017">
  <HintPath>/Users/aptoide/Documents/GitHub/AppcoinsUnityPlugin2017/Appcoins Unity/Assets/AppcoinsUnity/Scripts/Editor/AppCoinsUnityPluginEditor2017.dll</HintPath>
  </Reference>
