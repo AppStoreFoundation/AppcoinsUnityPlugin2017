@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4160557894512102}
   - component: {fileID: 114144499567435238}
+  - component: {fileID: 114537863910524442}
   m_Layer: 0
   m_Name: ASFAppcoinsUnity
   m_TagString: Untagged
@@ -60,3 +61,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1cde2a5c28bf34800b2087e83e1b642e, type: 2}
   - {fileID: 11400000, guid: bc94d76f6c0a048f0bcfac54a1b758ba, type: 2}
   purchaserObject: {fileID: 0}
+--- !u!114 &114537863910524442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317240031217104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2089757477, guid: 6f61c4e42986649cb8a0a6c09b0c5f6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
