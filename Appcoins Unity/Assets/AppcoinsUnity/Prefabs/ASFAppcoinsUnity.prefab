@@ -20,9 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4160557894512102}
   - component: {fileID: 114144499567435238}
-  - component: {fileID: 114935720266326702}
   m_Layer: 0
-  m_Name: AppcoinsUnity
+  m_Name: ASFAppcoinsUnity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,7 +48,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1317240031217104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 779045978, guid: 4eb5eb697ff824c5e87b175ec4a40835, type: 3}
+  m_Script: {fileID: 779045978, guid: 6f61c4e42986649cb8a0a6c09b0c5f6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   receivingAddress: 0xa43646ed0ece7595267ed7a2ff6f499f9f10f3c7
@@ -57,18 +56,7 @@ MonoBehaviour:
   enablePOA: 1
   enableDebug: 1
   products:
-  - {fileID: 11400000, guid: 5566da66ab11d40c2afe49756d290d4f, type: 2}
-  - {fileID: 11400000, guid: 5a49ac7f95e464e518a9edfa8609a7b2, type: 2}
-  - {fileID: 11400000, guid: 29631627da95a4a97a2f2400d9733c0f, type: 2}
+  - {fileID: 11400000, guid: 419e4d86a984946d0af434c782f9e7fa, type: 2}
+  - {fileID: 11400000, guid: 1cde2a5c28bf34800b2087e83e1b642e, type: 2}
+  - {fileID: 11400000, guid: bc94d76f6c0a048f0bcfac54a1b758ba, type: 2}
   purchaserObject: {fileID: 0}
---- !u!114 &114935720266326702
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1317240031217104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1236063948, guid: 93645d9d7f017427798d05f4ed6be731, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

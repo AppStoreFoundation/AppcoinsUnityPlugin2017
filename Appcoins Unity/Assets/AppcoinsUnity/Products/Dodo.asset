@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1068742706, guid: 4eb5eb697ff824c5e87b175ec4a40835, type: 3}
+  m_Script: {fileID: 1068742706, guid: 6f61c4e42986649cb8a0a6c09b0c5f6f, type: 3}
   m_Name: Dodo
   m_EditorClassIdentifier: 
   Name: Dodo
