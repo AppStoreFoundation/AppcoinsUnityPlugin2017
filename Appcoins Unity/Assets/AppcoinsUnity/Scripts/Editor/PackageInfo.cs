@@ -6,7 +6,12 @@ public class PackageInfo : MonoBehaviour {
 
     public static string GetPackageName()
     {
-        return "AppCoins_Unity_Package_2017";
+        return "ASF_AppCoins_Unity_Package_2017";
+    }
+
+    public static bool ShouldCopyToMainRepo()
+    {
+    	return true;
     }
 
     public static bool ShouldCopyToMainRepo()
