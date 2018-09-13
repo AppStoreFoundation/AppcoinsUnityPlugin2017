@@ -9,30 +9,31 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1686773922504254}
+  m_RootGameObject: {fileID: 1317240031217104}
   m_IsPrefabParent: 1
---- !u!1 &1686773922504254
+--- !u!1 &1317240031217104
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4108477263330230}
-  - component: {fileID: 114697930555419170}
+  - component: {fileID: 4160557894512102}
+  - component: {fileID: 114144499567435238}
+  - component: {fileID: 114537863910524442}
   m_Layer: 0
-  m_Name: AppcoinsUnity
+  m_Name: ASFAppcoinsUnity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4108477263330230
+--- !u!4 &4160557894512102
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1686773922504254}
+  m_GameObject: {fileID: 1317240031217104}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,20 +41,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114697930555419170
+--- !u!114 &114144499567435238
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1686773922504254}
+  m_GameObject: {fileID: 1317240031217104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 779045978, guid: 7ad3131857b344914963e216fb01967a, type: 3}
+  m_Script: {fileID: 779045978, guid: 6f61c4e42986649cb8a0a6c09b0c5f6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   receivingAddress: 0xa43646ed0ece7595267ed7a2ff6f499f9f10f3c7
   enableIAB: 1
   enablePOA: 1
   enableDebug: 1
-  products: []
+  products:
+  - {fileID: 11400000, guid: 419e4d86a984946d0af434c782f9e7fa, type: 2}
+  - {fileID: 11400000, guid: 1cde2a5c28bf34800b2087e83e1b642e, type: 2}
+  - {fileID: 11400000, guid: bc94d76f6c0a048f0bcfac54a1b758ba, type: 2}
   purchaserObject: {fileID: 0}
+--- !u!114 &114537863910524442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317240031217104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2089757477, guid: 6f61c4e42986649cb8a0a6c09b0c5f6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

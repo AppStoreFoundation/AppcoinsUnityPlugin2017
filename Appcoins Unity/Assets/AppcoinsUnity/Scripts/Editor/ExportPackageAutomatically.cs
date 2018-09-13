@@ -1,4 +1,4 @@
-﻿using UnityEditor;
+using UnityEditor;
 using UnityEngine;
 using System;
 using System.IO;
@@ -15,6 +15,7 @@ public class ExportPackageAutomatically : ScriptableObject
         // Just the file name with extension
         List<string> filesToRemove = new List<string> {
             "ExportPackageAutomatically.cs",
+            "PackageInfo.cs",
             "ProcessCompleted.out",
             "BashCommand.sh",
             "ProcessError.out",
@@ -26,8 +27,10 @@ public class ExportPackageAutomatically : ScriptableObject
 
         // Complete path to folder to filter out (starting from Assets)
         List<string> foldersToRemove = new List<string> {
-            "Assets/Products",
-            "Assets/Scripts/Editor/Tests"
+            "Assets/Products"
+            ,"Assets/AppcoinsUnity/Scripts/Editor/Tests"
+            ,"Assets/StompyRobot"
+            ,"Assets/Scenes"
         };
 
         int pathToRemove = (Path.GetDirectoryName(Application.dataPath) + "/").Length;
@@ -88,6 +91,14 @@ public class ExportPackageAutomatically : ScriptableObject
         
         ExportPackageOptions options = ExportPackageOptions.Recurse;
         AssetDatabase.ExportPackage(filesToExport.ToArray(), packagePath, options);
+
+        //Check if we need to copy the exported package to the main repo
+        if (PackageInfo.ShouldCopyToMainRepo()) {
+            packagePath = Application.dataPath +
+                                        "/../../../asf-unity-plugin/" + 
+                                        PackageInfo.GetPackageName() + ".unitypackage";
+            AssetDatabase.ExportPackage(filesToExport.ToArray(), packagePath, options);            
+        }
 
         UnityEngine.Debug.Log("Export done successfully");
     }

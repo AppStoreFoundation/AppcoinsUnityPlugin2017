@@ -51,8 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AppcoinsUnity\Scripts\Editor\AppCoinsChecks.cs" />
-     <Compile Include="Assets\AppcoinsUnity\Scripts\Editor\AppcoinsUnityTests.cs" />
      <Compile Include="Assets\AppcoinsUnity\Scripts\Editor\ExportPackageAutomatically.cs" />
      <Compile Include="Assets\AppcoinsUnity\Scripts\Editor\PackageInfo.cs" />
  <Reference Include="UnityEngine.CoreModule">
@@ -260,10 +258,13 @@
  <HintPath>/Applications/Unity 2017.4.1f8/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="AppCoinsUnityPlugin2017">
- <HintPath>/Users/aptoide/Documents/GitHub/AppcoinsUnityPlugin2017/Appcoins Unity/Assets/AppcoinsUnity/Scripts/AppCoinsUnityPlugin2017.dll</HintPath>
+ <HintPath>/Users/aptoide/Documents/GitHub/asf-unity-plugin-2017/Appcoins Unity/Assets/AppcoinsUnity/Scripts/AppCoinsUnityPlugin2017.dll</HintPath>
+ </Reference>
+ <Reference Include="AppCoinsUnitySupport">
+ <HintPath>/Users/aptoide/Documents/GitHub/asf-unity-plugin-2017/Appcoins Unity/Assets/AppcoinsUnity/Scripts/Editor/AppCoinsUnitySupport.dll</HintPath>
  </Reference>
  <Reference Include="AppCoinsUnityPluginEditor2017">
- <HintPath>/Users/aptoide/Documents/GitHub/AppcoinsUnityPlugin2017/Appcoins Unity/Assets/AppcoinsUnity/Scripts/Editor/AppCoinsUnityPluginEditor2017.dll</HintPath>
+ <HintPath>/Users/aptoide/Documents/GitHub/asf-unity-plugin-2017/Appcoins Unity/Assets/AppcoinsUnity/Scripts/Editor/AppCoinsUnityPluginEditor2017.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Users/aptoide/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
